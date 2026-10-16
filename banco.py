@@ -95,12 +95,14 @@ c1 = ContaCorrente("flavio", 1, 123, 700.00)
 c2 = ContaSalario("estagiario", 1, 123, 300.00)
 
 print(c1)
-# print(c2)
+print(c2)
 
-# c1.depositar()
+c1.depositar()
 c1.sacar()
 # c1.sacar()
 # c1.sacar()
 
-# c2.depositar()
+c2.depositar()
+c2.sacar()
+# c2.sacar()
 # c2.sacar()
